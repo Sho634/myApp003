@@ -14,6 +14,10 @@
 		94F3D39C1A0925E2005422A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F3D39B1A0925E2005422A2 /* Images.xcassets */; };
 		94F3D39F1A0925E2005422A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F3D39D1A0925E2005422A2 /* LaunchScreen.xib */; };
 		94F3D3AB1A0925E2005422A2 /* myApp003Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F3D3AA1A0925E2005422A2 /* myApp003Tests.m */; };
+		94F3D3B51A0925F1005422A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F3D3B41A0925F1005422A2 /* MapKit.framework */; };
+		94F3D3B81A092895005422A2 /* btn1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F3D3B71A092895005422A2 /* btn1ViewController.m */; };
+		94F3D3BB1A092B0D005422A2 /* btn2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F3D3BA1A092B0D005422A2 /* btn2ViewController.m */; };
+		94F3D3BE1A092CEC005422A2 /* btn3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F3D3BD1A092CEC005422A2 /* btn3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		94F3D3A41A0925E2005422A2 /* myApp003Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myApp003Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F3D3A91A0925E2005422A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F3D3AA1A0925E2005422A2 /* myApp003Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myApp003Tests.m; sourceTree = "<group>"; };
+		94F3D3B41A0925F1005422A2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		94F3D3B61A092895005422A2 /* btn1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btn1ViewController.h; sourceTree = "<group>"; };
+		94F3D3B71A092895005422A2 /* btn1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btn1ViewController.m; sourceTree = "<group>"; };
+		94F3D3B91A092B0D005422A2 /* btn2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btn2ViewController.h; sourceTree = "<group>"; };
+		94F3D3BA1A092B0D005422A2 /* btn2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btn2ViewController.m; sourceTree = "<group>"; };
+		94F3D3BC1A092CEC005422A2 /* btn3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btn3ViewController.h; sourceTree = "<group>"; };
+		94F3D3BD1A092CEC005422A2 /* btn3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btn3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F3D3B51A0925F1005422A2 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 		94F3D3821A0925E2005422A2 = {
 			isa = PBXGroup;
 			children = (
+				94F3D3B41A0925F1005422A2 /* MapKit.framework */,
 				94F3D38D1A0925E2005422A2 /* myApp003 */,
 				94F3D3A71A0925E2005422A2 /* myApp003Tests */,
 				94F3D38C1A0925E2005422A2 /* Products */,
@@ -83,6 +96,12 @@
 			children = (
 				94F3D3921A0925E2005422A2 /* AppDelegate.h */,
 				94F3D3931A0925E2005422A2 /* AppDelegate.m */,
+				94F3D3B61A092895005422A2 /* btn1ViewController.h */,
+				94F3D3B71A092895005422A2 /* btn1ViewController.m */,
+				94F3D3B91A092B0D005422A2 /* btn2ViewController.h */,
+				94F3D3BA1A092B0D005422A2 /* btn2ViewController.m */,
+				94F3D3BC1A092CEC005422A2 /* btn3ViewController.h */,
+				94F3D3BD1A092CEC005422A2 /* btn3ViewController.m */,
 				94F3D3951A0925E2005422A2 /* ViewController.h */,
 				94F3D3961A0925E2005422A2 /* ViewController.m */,
 				94F3D3981A0925E2005422A2 /* Main.storyboard */,
@@ -220,8 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F3D3971A0925E2005422A2 /* ViewController.m in Sources */,
+				94F3D3BB1A092B0D005422A2 /* btn2ViewController.m in Sources */,
 				94F3D3941A0925E2005422A2 /* AppDelegate.m in Sources */,
 				94F3D3911A0925E2005422A2 /* main.m in Sources */,
+				94F3D3B81A092895005422A2 /* btn1ViewController.m in Sources */,
+				94F3D3BE1A092CEC005422A2 /* btn3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

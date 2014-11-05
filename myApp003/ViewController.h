@@ -7,8 +7,36 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+@interface ViewController : UIViewController<MKMapViewDelegate>
 
-@interface ViewController : UIViewController
+////////////////////////////////////////
+@property (weak, nonatomic) IBOutlet UIButton *btn1;
+
+- (IBAction)tapbtn1:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn2;
+
+- (IBAction)tapbtn2:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn3;
+
+- (IBAction)tapbtn3:(id)sender;
+/////////////////////////////////////////
+//タップすると色が赤に代わりピンを立てる
+@property (weak, nonatomic) IBOutlet UIButton *redpin;
+
+- (IBAction)tapredpin:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *greenpin;
+
+
+- (IBAction)tapgreenpin:(id)sender;
+
+
+
+
+//BOOL _visibleFlag; //水色のビューが表示されている:YES 非表示：NO
 
 
 @end
